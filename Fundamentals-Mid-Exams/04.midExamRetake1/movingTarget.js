@@ -23,7 +23,7 @@ function movingTarget(input) {
         break;
       case "Strike":
         if(index-value>=0 && index+value<targets.length){
-            targets.splice(index-value, index+value+!);
+            targets.splice(index-value, index+value);
         }else{
             console.log("Strike missed!");
         }
