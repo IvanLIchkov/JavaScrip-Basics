@@ -6,6 +6,11 @@ let personalInformation = {
   isMale: true
 };
 
+//Built-in method library
+let objectProperties = Object.keys(personalInformation);
+let objectValues = Object.values(personalInformation);
+let objectEntries = Object.entries(personalInformation);
+
 //Dynamic add property
 personalInformation.weight = 80;
 
